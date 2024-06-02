@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "overrides": {
+    "webpack@4.47.0": {
+      "terser-webpack-plugin": "^4.2.3"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "react-redux": "^9.1.2",
+    "websocket": "^1.0.35"
+  }
+}
